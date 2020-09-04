@@ -2,7 +2,7 @@
  A Moderation Bot for the Holyoke Codes Discord server
 
 ### Setup
-To run Rosie you will need to create a config file with the following format:
+To run Rosie you will need to create a config.json file with the following format:
 
 ```json
 {
