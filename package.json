@@ -8,7 +8,7 @@
     "start": "npm run build && node output/index.js"
   },
   "author": "Jacob Bashista",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bad-words": "^3.0.3",
     "build": "^0.1.4",
