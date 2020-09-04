@@ -1,0 +1,22 @@
+{
+  "name": "rosie",
+  "version": "1.0.0",
+  "description": "A Moderation Bot for the Holyoke Codes Discord server",
+  "main": "output/index.js",
+  "scripts": {
+    "build": "rm -rf output && tsc",
+    "start": "npm run build && node output/index.js"
+  },
+  "author": "Jacob Bashista",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "build": "^0.1.4",
+    "discord.js": "^12.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "typescript": "^3.9.3",
+    "tslint": "^6.1.2"
+  }
+}
