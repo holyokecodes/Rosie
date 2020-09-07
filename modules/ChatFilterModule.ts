@@ -15,7 +15,7 @@ export default class ChatFilter {
             textCleanedMessage = filter.clean(textCleanedMessage);
 
             if (textCleanedMessage.includes('~')) {
-                msg.channel.send('Please do not use that language here!');
+                msg.channel.send('Please avoid using that language in this server');
                 msg.delete();
             }
         });
